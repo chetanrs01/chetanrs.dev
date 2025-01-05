@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import UNCLogo from "./images/unc.png";
+import { prefix } from "@/app/prefix";
 
 const Education = () => {
   return (
@@ -10,7 +10,7 @@ const Education = () => {
       </h2>
       <div className="flex gap-6 items-center">
         <Image
-          src={UNCLogo}
+          src={`${prefix}/unc.png`}
           alt="Logo of the University of North Carolina at Chapel Hill"
           className="rounded-lg"
           width={100}

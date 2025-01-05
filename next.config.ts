@@ -1,9 +1,13 @@
 import type { NextConfig } from "next";
+import { prefix } from "@/app/prefix";
 
 const nextConfig: NextConfig = {
-  basePath: "/chetanrs.dev",
+  basePath: prefix,
   output: "export",
   reactStrictMode: true,
+  images: {
+    unoptimized: true,
+  },
 };
 
 export default nextConfig;

@@ -4,7 +4,7 @@ import React from "react";
 import Image from "next/image";
 import WorkHistory from "@/components/work-history";
 import Education from "@/components/education";
-import Headshot from "../components/images/headshot.jpeg";
+import { prefix } from "@/app/prefix";
 
 export default function Page() {
   return (
@@ -32,9 +32,10 @@ export default function Page() {
         </div>
 
         <Image
-          src={Headshot}
+          src={`${prefix}/headshot.jpeg`}
           alt="A headshot of Chetan"
           width={300}
+          height={300}
           className="rounded-xl"
         />
       </div>
