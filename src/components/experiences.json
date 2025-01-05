@@ -1,0 +1,25 @@
+{
+  "workExperiences": [
+    {
+      "company": "Capital One",
+      "title": "Senior Associate Software Engineer",
+      "startDate": "Jul 2023",
+      "endDate": "present",
+      "description": "Second rotation of the Technology Development Program. Working on an internal servicing application that Capital One agents use to service our customers. Full stack developer working on three backend APIs (two REST-based and one event based) and a front end application using Vue."
+    },
+    {
+      "company": "Capital One",
+      "title": "Associate Software Engineer",
+      "startDate": "Aug 2022",
+      "endDate": "2021-01-01",
+      "description": "First rotation of the Technology Development Program. Worked on an enterprise platform team that was responsible for maintaining golden images (AWS, GCP, Docker) for all of Capital One's servers."
+    },
+    {
+      "company": "CapTech",
+      "title": "Software Engineering Consulting Intern",
+      "startDate": "Jul 2021",
+      "endDate": "May 2021",
+      "description": "Served as a PO for a team devloping a React-based smart fridge system to implement image recognition, recipe recommendation, inventory tracking, and grocery list features."
+    }
+  ]
+}
