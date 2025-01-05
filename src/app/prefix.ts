@@ -1,3 +1,3 @@
-const prefix = "/chetanrs.dev";
+const prefix = "";
 
 export { prefix };
